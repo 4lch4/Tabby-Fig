@@ -1,0 +1,29 @@
+{
+  "name": "@4lch4/tabby-fig",
+  "version": "0.0.1",
+  "description": "A Tabby plugin that enables support for Fig.",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "webpack --progress --color",
+    "watch": "webpack --progress --color --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "tabby",
+    "fig",
+    "plugin",
+    "fig-plugin",
+    "tabby-plugin"
+  ],
+  "author": {
+    "name": "4lch4",
+    "email": "hey@4lch4.email",
+    "url": "https://alcha.org"
+  },
+  "license": "MIT",
+  "repository": "4lch4/tabby-fig"
+}
